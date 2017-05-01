@@ -990,7 +990,7 @@ namespace Eliminator
                     {
                         button153.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(0) == true)
+                    if (controller.getFloorControllerPanelStatusDown(1) == true)
                     {
                         button118.BackColor = System.Drawing.Color.Gold;
                     }
@@ -998,7 +998,7 @@ namespace Eliminator
                     {
                         button118.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(1) == true)
+                    if (controller.getFloorControllerPanelStatusDown(2) == true)
                     {
                         button120.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1006,7 +1006,7 @@ namespace Eliminator
                     {
                         button120.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(2) == true)
+                    if (controller.getFloorControllerPanelStatusDown(3) == true)
                     {
                         button122.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1014,7 +1014,7 @@ namespace Eliminator
                     {
                         button122.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(3) == true)
+                    if (controller.getFloorControllerPanelStatusDown(4) == true)
                     {
                         button124.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1022,7 +1022,7 @@ namespace Eliminator
                     {
                         button124.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(4) == true)
+                    if (controller.getFloorControllerPanelStatusDown(5) == true)
                     {
                         button126.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1030,7 +1030,7 @@ namespace Eliminator
                     {
                         button126.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(5) == true)
+                    if (controller.getFloorControllerPanelStatusDown(6) == true)
                     {
                         button128.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1038,7 +1038,7 @@ namespace Eliminator
                     {
                         button128.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(6) == true)
+                    if (controller.getFloorControllerPanelStatusDown(7) == true)
                     {
                         button130.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1046,7 +1046,7 @@ namespace Eliminator
                     {
                         button130.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(7) == true)
+                    if (controller.getFloorControllerPanelStatusDown(8) == true)
                     {
                         button132.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1054,7 +1054,7 @@ namespace Eliminator
                     {
                         button132.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(8) == true)
+                    if (controller.getFloorControllerPanelStatusDown(9) == true)
                     {
                         button134.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1062,7 +1062,7 @@ namespace Eliminator
                     {
                         button134.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(9) == true)
+                    if (controller.getFloorControllerPanelStatusDown(10) == true)
                     {
                         button136.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1070,7 +1070,7 @@ namespace Eliminator
                     {
                         button136.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(10) == true)
+                    if (controller.getFloorControllerPanelStatusDown(11) == true)
                     {
                         button138.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1078,7 +1078,7 @@ namespace Eliminator
                     {
                         button138.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(11) == true)
+                    if (controller.getFloorControllerPanelStatusDown(12) == true)
                     {
                         button140.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1086,7 +1086,7 @@ namespace Eliminator
                     {
                         button140.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(12) == true)
+                    if (controller.getFloorControllerPanelStatusDown(13) == true)
                     {
                         button142.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1094,7 +1094,7 @@ namespace Eliminator
                     {
                         button142.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(13) == true)
+                    if (controller.getFloorControllerPanelStatusDown(14) == true)
                     {
                         button144.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1102,7 +1102,7 @@ namespace Eliminator
                     {
                         button144.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(14) == true)
+                    if (controller.getFloorControllerPanelStatusDown(15) == true)
                     {
                         button146.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1110,7 +1110,7 @@ namespace Eliminator
                     {
                         button146.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(15) == true)
+                    if (controller.getFloorControllerPanelStatusDown(16) == true)
                     {
                         button148.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1118,7 +1118,7 @@ namespace Eliminator
                     {
                         button148.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(16) == true)
+                    if (controller.getFloorControllerPanelStatusDown(17) == true)
                     {
                         button150.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1126,7 +1126,7 @@ namespace Eliminator
                     {
                         button150.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(17) == true)
+                    if (controller.getFloorControllerPanelStatusDown(18) == true)
                     {
                         button152.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1134,7 +1134,7 @@ namespace Eliminator
                     {
                         button152.BackColor = System.Drawing.Color.Gray;
                     }
-                    if (controller.getFloorControllerPanelStatusUp(18) == true)
+                    if (controller.getFloorControllerPanelStatusDown(19) == true)
                     {
                         button154.BackColor = System.Drawing.Color.Gold;
                     }
@@ -1961,6 +1961,308 @@ namespace Eliminator
             }
         }
 
-        
+        private void button116_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(0))
+            {
+                controller.exteriorRequest(0, Direction.UP);
+            }
+        }
+
+        private void button119_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(1))
+            {
+                controller.exteriorRequest(1, Direction.UP);
+            }
+        }
+
+        private void button121_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(2))
+            {
+                controller.exteriorRequest(2, Direction.UP);
+            }
+        }
+
+        private void button123_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(3))
+            {
+                controller.exteriorRequest(3, Direction.UP);
+            }
+        }
+
+        private void button125_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(4))
+            {
+                controller.exteriorRequest(4, Direction.UP);
+            }
+        }
+
+        private void button127_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(5))
+            {
+                controller.exteriorRequest(5, Direction.UP);
+            }
+        }
+
+        private void button129_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(6))
+            {
+                controller.exteriorRequest(6, Direction.UP);
+            }
+        }
+
+        private void button131_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(7))
+            {
+                controller.exteriorRequest(7, Direction.UP);
+            }
+        }
+
+        private void button133_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(8))
+            {
+                controller.exteriorRequest(8, Direction.UP);
+            }
+        }
+
+        private void button135_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(9))
+            {
+                controller.exteriorRequest(9, Direction.UP);
+            }
+        }
+
+        private void button137_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(10))
+            {
+                controller.exteriorRequest(10, Direction.UP);
+            }
+        }
+
+        private void button139_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(11))
+            {
+                controller.exteriorRequest(11, Direction.UP);
+            }
+        }
+
+        private void button141_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(12))
+            {
+                controller.exteriorRequest(12, Direction.UP);
+            }
+        }
+
+        private void button143_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(13))
+            {
+                controller.exteriorRequest(13, Direction.UP);
+            }
+        }
+
+        private void button145_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(14))
+            {
+                controller.exteriorRequest(14, Direction.UP);
+            }
+        }
+
+        private void button147_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(15))
+            {
+                controller.exteriorRequest(15, Direction.UP);
+            }
+        }
+
+        private void button149_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(16))
+            {
+                controller.exteriorRequest(16, Direction.UP);
+            }
+        }
+
+        private void button151_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(17))
+            {
+                controller.exteriorRequest(17, Direction.UP);
+            }
+        }
+
+        private void button153_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusUp(18))
+            {
+                controller.exteriorRequest(18, Direction.UP);
+            }
+        }
+
+        private void button118_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(1))
+            {
+                controller.exteriorRequest(1, Direction.DOWN);
+            }
+        }
+
+        private void button120_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(2))
+            {
+                controller.exteriorRequest(2, Direction.DOWN);
+            }
+        }
+
+        private void button122_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(3))
+            {
+                controller.exteriorRequest(3, Direction.DOWN);
+            }
+        }
+
+        private void button124_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(4))
+            {
+                controller.exteriorRequest(4, Direction.DOWN);
+            }
+        }
+
+        private void button126_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(5))
+            {
+                controller.exteriorRequest(5, Direction.DOWN);
+            }
+        }
+
+        private void button128_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(6))
+            {
+                controller.exteriorRequest(6, Direction.DOWN);
+            }
+        }
+
+        private void button130_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(7))
+            {
+                controller.exteriorRequest(7, Direction.DOWN);
+            }
+        }
+
+        private void button132_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(8))
+            {
+                controller.exteriorRequest(8, Direction.DOWN);
+            }
+        }
+
+        private void button134_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(9))
+            {
+                controller.exteriorRequest(9, Direction.DOWN);
+            }
+        }
+
+        private void button136_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(10))
+            {
+                controller.exteriorRequest(10, Direction.DOWN);
+            }
+        }
+
+        private void button138_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(11))
+            {
+                controller.exteriorRequest(11, Direction.DOWN);
+            }
+        }
+
+        private void button140_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(12))
+            {
+                controller.exteriorRequest(12, Direction.DOWN);
+            }
+        }
+
+        private void button142_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(13))
+            {
+                controller.exteriorRequest(13, Direction.DOWN);
+            }
+        }
+
+        private void button144_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(14))
+            {
+                controller.exteriorRequest(14, Direction.DOWN);
+            }
+        }
+
+        private void button146_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(15))
+            {
+                controller.exteriorRequest(15, Direction.DOWN);
+            }
+        }
+
+        private void button148_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(16))
+            {
+                controller.exteriorRequest(16, Direction.DOWN);
+            }
+        }
+
+        private void button150_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(17))
+            {
+                controller.exteriorRequest(17, Direction.DOWN);
+            }
+        }
+
+        private void button152_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(18))
+            {
+                controller.exteriorRequest(18, Direction.DOWN);
+            }
+        }
+
+        private void button154_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllerPanelStatusDown(19))
+            {
+                controller.exteriorRequest(19, Direction.DOWN);
+            }
+        }
     }
 }
