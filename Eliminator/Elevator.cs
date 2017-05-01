@@ -1,4 +1,12 @@
-﻿using System;
+﻿//
+//  Elevator.cs
+//  Eliminator
+//
+//  Created by Emoin Lam on 30/04/2017.
+//  Copyright © 2017 Emoin Lam. All rights reserved.
+//
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,10 +26,10 @@ namespace Eliminator
         private bool[] _floorControllingPanel;
         private bool _gateControllingPanel;
         private bool _alertControllingButton;
-        private FloorController[] _floorControllerPanel;
 
         public Elevator()
         {
+            _shiftingCheck = false;
             _direction = Direction.UP;
             _isGateOpen = false;
             _isRunning = false;
@@ -31,11 +39,9 @@ namespace Eliminator
             _gateControllingPanel = false;
             _alertControllingButton = false;
             _floorControllingPanel = new bool[_floorCount];
-            _floorControllerPanel = new FloorController[_floorCount];
             for (int i = 0; i < _floorCount; ++i)
             {
                 _floorControllingPanel[i] = false;
-                _floorControllerPanel[i] = new FloorController();
             }
         }
 
@@ -44,32 +50,6 @@ namespace Eliminator
             if (index < _floorCount)
             {
                 _floorControllingPanel[index] = true;
-            }
-            else
-            {
-                Exception excep = new Exception("Invalid value of floor index.");
-                throw excep;
-            }
-        }
-
-        public void floorControllerUpButtonPressed(int index)
-        {
-            if (index < _floorCount)
-            {
-                _floorControllerPanel[index].upButtonPressed();
-            }
-            else
-            {
-                Exception excep = new Exception("Invalid value of floor index.");
-                throw excep;
-            }
-        }
-
-        public void floorControllerDownButtonPressed(int index)
-        {
-            if (index < _floorCount)
-            {
-                _floorControllerPanel[index].downButtonPressed();
             }
             else
             {
@@ -106,32 +86,6 @@ namespace Eliminator
             }
         }
 
-        public void floorControllerUpButtonReleased(int index)
-        {
-            if (index < _floorCount)
-            {
-                _floorControllerPanel[index].upButtonReleased();
-            }
-            else
-            {
-                Exception excep = new Exception("Invalid value of floor index.");
-                throw excep;
-            }
-        }
-
-        public void floorControllerDownButtonReleased(int index)
-        {
-            if (index < _floorCount)
-            {
-                _floorControllerPanel[index].downButtonReleased();
-            }
-            else
-            {
-                Exception excep = new Exception("Invalid value of floor index.");
-                throw excep;
-            }
-        }
-
         public void alertButtonReleased()
         {
             _alertControllingButton = false;
@@ -150,15 +104,6 @@ namespace Eliminator
         public void stop()
         {
             _isRunning = false;
-        }
-
-        public bool isArrived()
-        {
-            if (nextTaskDownwardExists() || nextTaskUpwardExists())
-            {
-                return false;
-            }
-            return true;
         }
 
         public void moveUp()
@@ -201,30 +146,6 @@ namespace Eliminator
             return _direction;
         }
 
-        public bool nextTaskUpwardExists()
-        {
-            for (int i = _floor + 1; i < _floorCount; ++i)
-            {
-                if (_floorControllingPanel[i] || _floorControllerPanel[i].getUpButtonStatus())
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        public bool nextTaskDownwardExists()
-        {
-            for (int i = _floor - 1; i >= 0; --i)
-            {
-                if (_floorControllingPanel[i] || _floorControllerPanel[i].getDownButtonStatus())
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
         public bool getDoorStatus()
         {
             return _isGateOpen;
@@ -237,39 +158,7 @@ namespace Eliminator
 
         public void openDoor()
         {
-            if (_direction == Direction.UP)
-            {
-                _isGateOpen = true;
-                if (_floorControllingPanel[_floor] || _floorControllerPanel[_floor].getUpButtonStatus())
-                {
-                    _floorControllingPanel[_floor] = false;
-                    _floorControllerPanel[_floor].upButtonReleased();
-                }
-                else if (!nextTaskUpwardExists() || _floorControllerPanel[_floor].getDownButtonStatus())
-                {
-                    _direction = Direction.DOWN;
-                    _floorControllerPanel[_floor].downButtonReleased();
-                }
-            }
-            else if (_direction == Direction.DOWN)
-            {
-                _isGateOpen = true;
-                if (_floorControllingPanel[_floor] || _floorControllerPanel[_floor].getDownButtonStatus())
-                {
-                    _floorControllingPanel[_floor] = false;
-                    _floorControllerPanel[_floor].downButtonReleased();
-                }
-                else if (!nextTaskDownwardExists() || _floorControllerPanel[_floor].getUpButtonStatus())
-                {
-                    _direction = Direction.UP;
-                    _floorControllerPanel[_floor].upButtonReleased();
-                }
-            }
-            else
-            {
-                Exception excep = new Exception("Invalid elevator status.");
-                throw excep;
-            }
+            _isGateOpen = true;
         }
 
         public int getFloor()
@@ -277,19 +166,49 @@ namespace Eliminator
             return _floor;
         }
 
-        public bool getUpButtonStatusAtFloor(int index)
-        {
-            return _floorControllerPanel[index].getUpButtonStatus();
-        }
-
-        public bool getDownButtonStatusAtFloor(int index)
-        {
-            return _floorControllerPanel[index].getDownButtonStatus();
-        }
-
         public bool getFloorControllingButtonStatus(int floor)
         {
             return _floorControllingPanel[floor];
         }
+
+        public void setFloorControllingButtonStatus(int floor, bool status)
+        {
+            if(floor < _floorCount)
+            {
+                _floorControllingPanel[floor] = status;
+            }
+            else
+            {
+                Exception excep = new Exception("Invalid value of floor.");
+                throw excep;
+            }
+        }
+
+        public int getFloorCount()
+        {
+            return _floorCount;
+        }
+
+        public void setDirection(Direction dir)
+        {
+            _direction = dir;
+        }
+
+        public void gateControllingButtonOpen()
+        {
+            _gateControllingPanel = true;
+        }
+
+        public void gateControllingButtonClose()
+        {
+            _gateControllingPanel = false;
+        }
+
+        public bool getGateControllingButtonStatus()
+        {
+            return _gateControllingPanel;
+        }
+
+        public bool _shiftingCheck;
     }
 }
