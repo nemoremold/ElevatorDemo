@@ -1,4 +1,12 @@
-﻿namespace Eliminator
+﻿//
+//  MainView.Designer.cs
+//  Eliminator
+//
+//  Created by Emoin Lam on 30/04/2017.
+//  Copyright © 2017 Emoin Lam. All rights reserved.
+//
+
+namespace Eliminator
 {
     partial class MainView
     {
@@ -18,6 +26,7 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+            System.Environment.Exit(0);
         }
 
         #region Windows 窗体设计器生成的代码
@@ -3668,6 +3677,7 @@
             this.Controls.Add(this.DistributedDisplay);
             this.Name = "MainView";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainView_Load);
             this.DistributedDisplay.ResumeLayout(false);
             this.Elevator1.ResumeLayout(false);
             this.Elevator1.PerformLayout();

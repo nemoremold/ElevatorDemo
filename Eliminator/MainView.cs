@@ -1,4 +1,12 @@
-﻿using System;
+﻿//
+//  MainView
+//  Eliminator
+//
+//  Created by Emoin Lam on 30/04/2017.
+//  Copyright © 2017 Emoin Lam. All rights reserved.
+//
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -3718,6 +3726,12 @@ namespace Eliminator
                 button94.BackColor = System.Drawing.Color.Gray;
                 controller.openDoorAt(4);
             }
+        }
+
+        private void MainView_Load(object sender, EventArgs e)
+        {
+            this.Text = "Eliminater Elevator Dispatch System Alpha";
+            this.Icon = new Icon("1.ico");
         }
     }
 }

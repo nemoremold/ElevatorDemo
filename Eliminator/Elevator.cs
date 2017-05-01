@@ -1,4 +1,12 @@
-﻿using System;
+﻿//
+//  Elevator.cs
+//  Eliminator
+//
+//  Created by Emoin Lam on 30/04/2017.
+//  Copyright © 2017 Emoin Lam. All rights reserved.
+//
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
