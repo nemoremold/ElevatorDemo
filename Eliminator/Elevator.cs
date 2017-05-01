@@ -25,7 +25,7 @@ namespace Eliminator
             _direction = Direction.UP;
             _isGateOpen = false;
             _isRunning = false;
-            _floor = 1;
+            _floor = 0;
             _floorCount = 20;
 
             _gateControllingPanel = false;
@@ -35,8 +35,7 @@ namespace Eliminator
             for (int i = 0; i < _floorCount; ++i)
             {
                 _floorControllingPanel[i] = false;
-                _floorControllerPanel[i].upButtonReleased();
-                _floorControllerPanel[i].downButtonReleased();
+                _floorControllerPanel[i] = new FloorController();
             }
         }
 
@@ -271,6 +270,26 @@ namespace Eliminator
                 Exception excep = new Exception("Invalid elevator status.");
                 throw excep;
             }
+        }
+
+        public int getFloor()
+        {
+            return _floor;
+        }
+
+        public bool getUpButtonStatusAtFloor(int index)
+        {
+            return _floorControllerPanel[index].getUpButtonStatus();
+        }
+
+        public bool getDownButtonStatusAtFloor(int index)
+        {
+            return _floorControllerPanel[index].getDownButtonStatus();
+        }
+
+        public bool getFloorControllingButtonStatus(int floor)
+        {
+            return _floorControllingPanel[floor];
         }
     }
 }

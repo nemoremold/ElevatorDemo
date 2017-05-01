@@ -16,6 +16,15 @@ namespace Eliminator
         {
             _elevatorCount = 5;
             _elevators = new Elevator[5];
+            for(int i = 0; i < _elevatorCount; ++i)
+            {
+                _elevators[i] = new Elevator();
+            }
+        }
+
+        public int getCount()
+        {
+            return _elevatorCount;
         }
 
         public void runElevator()
@@ -188,6 +197,26 @@ namespace Eliminator
             }
 
             runElevator();
+        }
+
+        public int getCurrentFloorElevatorAt(int index)
+        {
+            return _elevators[index].getFloor();
+        }
+
+        public bool getFloorControllerPanelStatusUp(int floor)
+        {
+            return _elevators[0].getUpButtonStatusAtFloor(floor);
+        }
+
+        public bool getFloorControllerPanelStatusDown(int floor)
+        {
+            return _elevators[0].getDownButtonStatusAtFloor(floor);
+        }
+
+        public bool getFloorControllingPanelStatus(int index, int floor)
+        {
+            return _elevators[index].getFloorControllingButtonStatus(floor);
         }
     }
 }
