@@ -21,6 +21,7 @@ namespace Eliminator
 
         public Elevator()
         {
+            _shiftingCheck = false;
             _direction = Direction.UP;
             _isGateOpen = false;
             _isRunning = false;
@@ -199,5 +200,7 @@ namespace Eliminator
         {
             return _gateControllingPanel;
         }
+
+        public bool _shiftingCheck;
     }
 }

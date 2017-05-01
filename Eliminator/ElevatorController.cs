@@ -67,31 +67,16 @@ namespace Eliminator
             //MessageBox.Show(index.ToString());
             do
             {
-                bool flag = false;
                 for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
                 {
-                    flag = true;
                     if (_elevators[index].getDoorStatus())
                     {
-                        if (!_elevators[index].getGateControllingButtonStatus())
-                        {
-                            Thread.Sleep(1000);
-                            break;
-                        }
                         Thread.Sleep(3000);
                     }
                     //MessageBox.Show(index.ToString());
                     while (_elevators[index].getGateControllingButtonStatus())
                     {
                     }
-                }
-                if (flag)
-                {
-                    while (_elevators[index].getGateControllingButtonStatus())
-                    {
-                        _elevators[index].openDoor();
-                    }
-                    Thread.Sleep(1000);
                     _elevators[index].closeDoor();
                 }
 
@@ -118,39 +103,21 @@ namespace Eliminator
                     throw excep;
                 }
             } while (!isArrived(index));
-
-            bool flag2 = true;
+            
             for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
             {
-                flag2 = true;
                 if (_elevators[index].getDoorStatus())
                 {
-                    if (!_elevators[index].getGateControllingButtonStatus())
-                    {
-                        Thread.Sleep(1000);
-                        break;
-                    }
                     Thread.Sleep(3000);
                 }
                 //MessageBox.Show(index.ToString());
                 while (_elevators[index].getGateControllingButtonStatus())
                 {
                 }
-            }
-            if (flag2)
-            {
-                while (_elevators[index].getGateControllingButtonStatus())
-                {
-                    if (!_elevators[index].getDoorStatus())
-                    {
-                        Thread.Sleep(1000);
-                        _elevators[index].openDoor();
-                    }
-                }
-                Thread.Sleep(1000);
                 _elevators[index].closeDoor();
             }
 
+            _elevators[index]._shiftingCheck = false;
             _elevators[index].stop();
         }
 
@@ -228,7 +195,7 @@ namespace Eliminator
         {
             for (int i = _elevators[index].getFloor() - 1; i >= 0; --i)
             {
-                if (_elevators[index].getFloorControllingButtonStatus(i) || _floorControllerPanel[i].getDownButtonStatus() || _floorControllerPanel[i].getDownButtonStatus())
+                if (_elevators[index].getFloorControllingButtonStatus(i) || _floorControllerPanel[i].getDownButtonStatus() || _floorControllerPanel[i].getUpButtonStatus())
                 {
                     return true;
                 }
@@ -249,7 +216,14 @@ namespace Eliminator
                 }
                 else if ((!nextTaskUpwardExists(index) && nextTaskDownwardExists(index)) || _floorControllerPanel[_elevators[index].getFloor()].getDownButtonStatus())
                 {
-                    _elevators[index].openDoor();
+                    if (_elevators[index]._shiftingCheck)
+                    {
+                        _elevators[index].openDoor();
+                    }
+                    else
+                    {
+                        _elevators[index]._shiftingCheck = true;
+                    }
                     _elevators[index].setDirection(Direction.DOWN);
                     _floorControllerPanel[_elevators[index].getFloor()].downButtonReleased();
                 }
@@ -264,7 +238,14 @@ namespace Eliminator
                 }
                 else if ((!nextTaskDownwardExists(index) && nextTaskUpwardExists(index)) || _floorControllerPanel[_elevators[index].getFloor()].getUpButtonStatus())
                 {
-                    _elevators[index].openDoor();
+                    if (_elevators[index]._shiftingCheck)
+                    {
+                        _elevators[index].openDoor();
+                    }
+                    else
+                    {
+                        _elevators[index]._shiftingCheck = true;
+                    }
                     _elevators[index].setDirection(Direction.UP);
                     _floorControllerPanel[_elevators[index].getFloor()].upButtonReleased();
                 }
