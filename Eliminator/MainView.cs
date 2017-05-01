@@ -2699,5 +2699,1025 @@ namespace Eliminator
                 controller.exteriorRequest(19, Direction.DOWN);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 0))
+            {
+                controller.interiorRequestFloorControlling(0, 0);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 1))
+            {
+                controller.interiorRequestFloorControlling(0, 1);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 2))
+            {
+                controller.interiorRequestFloorControlling(0, 2);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 3))
+            {
+                controller.interiorRequestFloorControlling(0, 3);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 4))
+            {
+                controller.interiorRequestFloorControlling(0, 4);
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 5))
+            {
+                controller.interiorRequestFloorControlling(0, 5);
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 6))
+            {
+                controller.interiorRequestFloorControlling(0, 6);
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 7))
+            {
+                controller.interiorRequestFloorControlling(0, 7);
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 8))
+            {
+                controller.interiorRequestFloorControlling(0, 8);
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 9))
+            {
+                controller.interiorRequestFloorControlling(0, 9);
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 10))
+            {
+                controller.interiorRequestFloorControlling(0, 10);
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 11))
+            {
+                controller.interiorRequestFloorControlling(0, 11);
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 12))
+            {
+                controller.interiorRequestFloorControlling(0, 12);
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 13))
+            {
+                controller.interiorRequestFloorControlling(0, 13);
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 14))
+            {
+                controller.interiorRequestFloorControlling(0, 14);
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 15))
+            {
+                controller.interiorRequestFloorControlling(0, 15);
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 16))
+            {
+                controller.interiorRequestFloorControlling(0, 16);
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 17))
+            {
+                controller.interiorRequestFloorControlling(0, 17);
+            }
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 18))
+            {
+                controller.interiorRequestFloorControlling(0, 18);
+            }
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(0, 19))
+            {
+                controller.interiorRequestFloorControlling(0, 19);
+            }
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 0))
+            {
+                controller.interiorRequestFloorControlling(1, 0);
+            }
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 1))
+            {
+                controller.interiorRequestFloorControlling(1, 1);
+            }
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 2))
+            {
+                controller.interiorRequestFloorControlling(1, 2);
+            }
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 3))
+            {
+                controller.interiorRequestFloorControlling(1, 3);
+            }
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 4))
+            {
+                controller.interiorRequestFloorControlling(1, 4);
+            }
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 5))
+            {
+                controller.interiorRequestFloorControlling(1, 5);
+            }
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 6))
+            {
+                controller.interiorRequestFloorControlling(1, 6);
+            }
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 7))
+            {
+                controller.interiorRequestFloorControlling(1, 7);
+            }
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 8))
+            {
+                controller.interiorRequestFloorControlling(1, 8);
+            }
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 9))
+            {
+                controller.interiorRequestFloorControlling(1, 9);
+            }
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 10))
+            {
+                controller.interiorRequestFloorControlling(1, 10);
+            }
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 11))
+            {
+                controller.interiorRequestFloorControlling(1, 11);
+            }
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 12))
+            {
+                controller.interiorRequestFloorControlling(1, 12);
+            }
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 13))
+            {
+                controller.interiorRequestFloorControlling(1, 13);
+            }
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 14))
+            {
+                controller.interiorRequestFloorControlling(1, 14);
+            }
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 15))
+            {
+                controller.interiorRequestFloorControlling(1, 15);
+            }
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 16))
+            {
+                controller.interiorRequestFloorControlling(1, 16);
+            }
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 17))
+            {
+                controller.interiorRequestFloorControlling(1, 17);
+            }
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 18))
+            {
+                controller.interiorRequestFloorControlling(1, 18);
+            }
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(1, 19))
+            {
+                controller.interiorRequestFloorControlling(1, 19);
+            }
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 0))
+            {
+                controller.interiorRequestFloorControlling(2, 0);
+            }
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 1))
+            {
+                controller.interiorRequestFloorControlling(2, 1);
+            }
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 2))
+            {
+                controller.interiorRequestFloorControlling(2, 2);
+            }
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 3))
+            {
+                controller.interiorRequestFloorControlling(2, 3);
+            }
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 4))
+            {
+                controller.interiorRequestFloorControlling(2, 4);
+            }
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 5))
+            {
+                controller.interiorRequestFloorControlling(2, 5);
+            }
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 6))
+            {
+                controller.interiorRequestFloorControlling(2, 6);
+            }
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 7))
+            {
+                controller.interiorRequestFloorControlling(2, 7);
+            }
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 8))
+            {
+                controller.interiorRequestFloorControlling(2, 8);
+            }
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 9))
+            {
+                controller.interiorRequestFloorControlling(2, 9);
+            }
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 10))
+            {
+                controller.interiorRequestFloorControlling(2, 10);
+            }
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 11))
+            {
+                controller.interiorRequestFloorControlling(2, 11);
+            }
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 12))
+            {
+                controller.interiorRequestFloorControlling(2, 12);
+            }
+        }
+
+        private void button56_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 13))
+            {
+                controller.interiorRequestFloorControlling(2, 13);
+            }
+        }
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 14))
+            {
+                controller.interiorRequestFloorControlling(2, 14);
+            }
+        }
+
+        private void button54_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 15))
+            {
+                controller.interiorRequestFloorControlling(2, 15);
+            }
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 16))
+            {
+                controller.interiorRequestFloorControlling(2, 16);
+            }
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 17))
+            {
+                controller.interiorRequestFloorControlling(2, 17);
+            }
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 18))
+            {
+                controller.interiorRequestFloorControlling(2, 18);
+            }
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(2, 19))
+            {
+                controller.interiorRequestFloorControlling(2, 19);
+            }
+        }
+
+        private void button92_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 0))
+            {
+                controller.interiorRequestFloorControlling(3, 0);
+            }
+        }
+
+        private void button91_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 1))
+            {
+                controller.interiorRequestFloorControlling(3, 1);
+            }
+        }
+
+        private void button90_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 2))
+            {
+                controller.interiorRequestFloorControlling(3, 2);
+            }
+        }
+
+        private void button89_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 3))
+            {
+                controller.interiorRequestFloorControlling(3, 3);
+            }
+        }
+
+        private void button88_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 4))
+            {
+                controller.interiorRequestFloorControlling(3, 4);
+            }
+        }
+
+        private void button87_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 5))
+            {
+                controller.interiorRequestFloorControlling(3, 5);
+            }
+        }
+
+        private void button86_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 6))
+            {
+                controller.interiorRequestFloorControlling(3, 6);
+            }
+        }
+
+        private void button85_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 7))
+            {
+                controller.interiorRequestFloorControlling(3, 7);
+            }
+        }
+
+        private void button84_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 8))
+            {
+                controller.interiorRequestFloorControlling(3, 8);
+            }
+        }
+
+        private void button83_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 9))
+            {
+                controller.interiorRequestFloorControlling(3, 9);
+            }
+        }
+
+        private void button82_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 10))
+            {
+                controller.interiorRequestFloorControlling(3, 10);
+            }
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 11))
+            {
+                controller.interiorRequestFloorControlling(3, 11);
+            }
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 12))
+            {
+                controller.interiorRequestFloorControlling(3, 12);
+            }
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 13))
+            {
+                controller.interiorRequestFloorControlling(3, 13);
+            }
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 14))
+            {
+                controller.interiorRequestFloorControlling(3, 14);
+            }
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 15))
+            {
+                controller.interiorRequestFloorControlling(3, 15);
+            }
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 16))
+            {
+                controller.interiorRequestFloorControlling(3, 16);
+            }
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 17))
+            {
+                controller.interiorRequestFloorControlling(3, 17);
+            }
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 18))
+            {
+                controller.interiorRequestFloorControlling(3, 18);
+            }
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(3, 19))
+            {
+                controller.interiorRequestFloorControlling(3, 19);
+            }
+        }
+
+        private void button115_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 0))
+            {
+                controller.interiorRequestFloorControlling(4, 0);
+            }
+        }
+
+        private void button114_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 1))
+            {
+                controller.interiorRequestFloorControlling(4, 1);
+            }
+        }
+
+        private void button113_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 2))
+            {
+                controller.interiorRequestFloorControlling(4, 2);
+            }
+        }
+
+        private void button112_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 3))
+            {
+                controller.interiorRequestFloorControlling(4, 3);
+            }
+        }
+
+        private void button111_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 4))
+            {
+                controller.interiorRequestFloorControlling(4, 4);
+            }
+        }
+
+        private void button110_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 5))
+            {
+                controller.interiorRequestFloorControlling(4, 5);
+            }
+        }
+
+        private void button109_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 6))
+            {
+                controller.interiorRequestFloorControlling(4, 6);
+            }
+        }
+
+        private void button108_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 7))
+            {
+                controller.interiorRequestFloorControlling(4, 7);
+            }
+        }
+
+        private void button107_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 8))
+            {
+                controller.interiorRequestFloorControlling(4, 8);
+            }
+        }
+
+        private void button106_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 9))
+            {
+                controller.interiorRequestFloorControlling(4, 9);
+            }
+        }
+
+        private void button105_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 10))
+            {
+                controller.interiorRequestFloorControlling(4, 10);
+            }
+        }
+
+        private void button104_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 11))
+            {
+                controller.interiorRequestFloorControlling(4, 11);
+            }
+        }
+
+        private void button103_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 12))
+            {
+                controller.interiorRequestFloorControlling(4, 12);
+            }
+        }
+
+        private void button102_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 13))
+            {
+                controller.interiorRequestFloorControlling(4, 13);
+            }
+        }
+
+        private void button101_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 14))
+            {
+                controller.interiorRequestFloorControlling(4, 14);
+            }
+        }
+
+        private void button100_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 15))
+            {
+                controller.interiorRequestFloorControlling(4, 15);
+            }
+        }
+
+        private void button99_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 16))
+            {
+                controller.interiorRequestFloorControlling(4, 16);
+            }
+        }
+
+        private void button98_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 17))
+            {
+                controller.interiorRequestFloorControlling(4, 17);
+            }
+        }
+
+        private void button97_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 18))
+            {
+                controller.interiorRequestFloorControlling(4, 18);
+            }
+        }
+
+        private void button96_Click(object sender, EventArgs e)
+        {
+            if (!controller.getFloorControllingPanelStatus(4, 19))
+            {
+                controller.interiorRequestFloorControlling(4, 19);
+            }
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ELEVATOR1 sends an alert!");
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ELEVATOR2 sends an alert!");
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ELEVATOR3 sends an alert!");
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ELEVATOR4 sends an alert!");
+        }
+
+        private void button93_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ELEVATOR5 sends an alert!");
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if (button22.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button21.BackColor == System.Drawing.Color.Gray)
+            {
+                button21.BackColor = System.Drawing.Color.Gold;
+                controller.openDoorAt(0);
+                controller.interiorRequestGateControlling(0, true);
+            }
+            else
+            {
+                button21.BackColor = System.Drawing.Color.Gray;
+                controller.closeDoorAt(0);
+                controller.interiorRequestGateControlling(0, false);
+            }
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            if (button21.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button22.BackColor == System.Drawing.Color.Gray)
+            {
+                button22.BackColor = System.Drawing.Color.Gold;
+                controller.closeDoorAt(0);
+                controller.interiorRequestGateControlling(0, false);
+            }
+            else
+            {
+                button22.BackColor = System.Drawing.Color.Gray;
+                controller.openDoorAt(0);
+            }
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            if (button25.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button26.BackColor == System.Drawing.Color.Gray)
+            {
+                button26.BackColor = System.Drawing.Color.Gold;
+                controller.openDoorAt(1);
+                controller.interiorRequestGateControlling(1, true);
+            }
+            else
+            {
+                button26.BackColor = System.Drawing.Color.Gray;
+                controller.closeDoorAt(1);
+                controller.interiorRequestGateControlling(1, false);
+            }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (button26.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button25.BackColor == System.Drawing.Color.Gray)
+            {
+                button25.BackColor = System.Drawing.Color.Gold;
+                controller.closeDoorAt(1);
+                controller.interiorRequestGateControlling(1, false);
+            }
+            else
+            {
+                button25.BackColor = System.Drawing.Color.Gray;
+                controller.openDoorAt(1);
+            }
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            if (button48.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button49.BackColor == System.Drawing.Color.Gray)
+            {
+                button49.BackColor = System.Drawing.Color.Gold;
+                controller.openDoorAt(2);
+                controller.interiorRequestGateControlling(2, true);
+            }
+            else
+            {
+                button49.BackColor = System.Drawing.Color.Gray;
+                controller.closeDoorAt(2);
+                controller.interiorRequestGateControlling(2, false);
+            }
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            if (button49.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button48.BackColor == System.Drawing.Color.Gray)
+            {
+                button48.BackColor = System.Drawing.Color.Gold;
+                controller.closeDoorAt(2);
+                controller.interiorRequestGateControlling(2, false);
+            }
+            else
+            {
+                button48.BackColor = System.Drawing.Color.Gray;
+                controller.openDoorAt(2);
+            }
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            if (button71.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button72.BackColor == System.Drawing.Color.Gray)
+            {
+                button72.BackColor = System.Drawing.Color.Gold;
+                controller.openDoorAt(3);
+                controller.interiorRequestGateControlling(3, true);
+            }
+            else
+            {
+                button72.BackColor = System.Drawing.Color.Gray;
+                controller.closeDoorAt(3);
+                controller.interiorRequestGateControlling(3, false);
+            }
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            if (button72.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button71.BackColor == System.Drawing.Color.Gray)
+            {
+                button71.BackColor = System.Drawing.Color.Gold;
+                controller.closeDoorAt(3);
+                controller.interiorRequestGateControlling(3, false);
+            }
+            else
+            {
+                button71.BackColor = System.Drawing.Color.Gray;
+                controller.openDoorAt(3);
+            }
+        }
+
+        private void button95_Click(object sender, EventArgs e)
+        {
+            if (button94.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button95.BackColor == System.Drawing.Color.Gray)
+            {
+                button95.BackColor = System.Drawing.Color.Gold;
+                controller.openDoorAt(4);
+                controller.interiorRequestGateControlling(4, true);
+            }
+            else
+            {
+                button95.BackColor = System.Drawing.Color.Gray;
+                controller.closeDoorAt(4);
+                controller.interiorRequestGateControlling(4, false);
+            }
+        }
+
+        private void button94_Click(object sender, EventArgs e)
+        {
+            if (button95.BackColor == System.Drawing.Color.Gold)
+            {
+                return;
+            }
+            if (button94.BackColor == System.Drawing.Color.Gray)
+            {
+                button94.BackColor = System.Drawing.Color.Gold;
+                controller.closeDoorAt(4);
+                controller.interiorRequestGateControlling(4, false);
+            }
+            else
+            {
+                button94.BackColor = System.Drawing.Color.Gray;
+                controller.openDoorAt(4);
+            }
+        }
     }
 }

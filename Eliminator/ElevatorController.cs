@@ -50,22 +50,51 @@ namespace Eliminator
             }
         }
 
+        public void runElevator(int index)
+        {
+            if (!_elevators[index].getRunningStatus())
+            {
+                _elevators[index].startRunning();
+                Thread thread = new Thread(new ParameterizedThreadStart(run));
+                thread.IsBackground = true;
+                thread.Start(index);
+            }
+        }
+
         public void run(object param)
         {
             int index = (int)param;
             //MessageBox.Show(index.ToString());
             do
             {
+                bool flag = false;
                 for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
                 {
+                    flag = true;
                     if (_elevators[index].getDoorStatus())
                     {
+                        if (!_elevators[index].getGateControllingButtonStatus())
+                        {
+                            Thread.Sleep(1000);
+                            break;
+                        }
                         Thread.Sleep(3000);
                     }
                     //MessageBox.Show(index.ToString());
+                    while (_elevators[index].getGateControllingButtonStatus())
+                    {
+                    }
+                }
+                if (flag)
+                {
+                    while (_elevators[index].getGateControllingButtonStatus())
+                    {
+                        _elevators[index].openDoor();
+                    }
+                    Thread.Sleep(1000);
                     _elevators[index].closeDoor();
                 }
-                
+
                 Direction task = Direction.NONE;
                 task = acquireTask(index);
                 
@@ -89,12 +118,36 @@ namespace Eliminator
                     throw excep;
                 }
             } while (!isArrived(index));
+
+            bool flag2 = true;
             for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
             {
+                flag2 = true;
                 if (_elevators[index].getDoorStatus())
                 {
+                    if (!_elevators[index].getGateControllingButtonStatus())
+                    {
+                        Thread.Sleep(1000);
+                        break;
+                    }
                     Thread.Sleep(3000);
                 }
+                //MessageBox.Show(index.ToString());
+                while (_elevators[index].getGateControllingButtonStatus())
+                {
+                }
+            }
+            if (flag2)
+            {
+                while (_elevators[index].getGateControllingButtonStatus())
+                {
+                    if (!_elevators[index].getDoorStatus())
+                    {
+                        Thread.Sleep(1000);
+                        _elevators[index].openDoor();
+                    }
+                }
+                Thread.Sleep(1000);
                 _elevators[index].closeDoor();
             }
 
@@ -194,7 +247,7 @@ namespace Eliminator
                     _elevators[index].setFloorControllingButtonStatus(_elevators[index].getFloor(), false);
                     _floorControllerPanel[_elevators[index].getFloor()].upButtonReleased();
                 }
-                else if (nextTaskDownwardExists(index) || _floorControllerPanel[_elevators[index].getFloor()].getDownButtonStatus())
+                else if ((!nextTaskUpwardExists(index) && nextTaskDownwardExists(index)) || _floorControllerPanel[_elevators[index].getFloor()].getDownButtonStatus())
                 {
                     _elevators[index].openDoor();
                     _elevators[index].setDirection(Direction.DOWN);
@@ -209,7 +262,7 @@ namespace Eliminator
                     _elevators[index].setFloorControllingButtonStatus(_elevators[index].getFloor(), false);
                     _floorControllerPanel[_elevators[index].getFloor()].downButtonReleased();
                 }
-                else if (nextTaskUpwardExists(index) || _floorControllerPanel[_elevators[index].getFloor()].getUpButtonStatus())
+                else if ((!nextTaskDownwardExists(index) && nextTaskUpwardExists(index)) || _floorControllerPanel[_elevators[index].getFloor()].getUpButtonStatus())
                 {
                     _elevators[index].openDoor();
                     _elevators[index].setDirection(Direction.UP);
@@ -297,7 +350,7 @@ namespace Eliminator
                 throw excep;
             }
 
-            runElevator();
+            runElevator(elevatorIndex);
         }
 
         public void interiorRequestGateControlling(int elevatorIndex, bool check)
@@ -318,6 +371,8 @@ namespace Eliminator
                 Exception excep = new Exception("Invalid value of elevator's index.");
                 throw excep;
             }
+
+            runElevator(elevatorIndex);
         }
 
         public void interiorRequestAlerted(int elevatorIndex)
@@ -396,6 +451,16 @@ namespace Eliminator
         public bool getDoorStatus(int index)
         {
             return _elevators[index].getDoorStatus();
+        }
+
+        public void openDoorAt(int index)
+        {
+            _elevators[index].gateControllingButtonOpen();
+        }
+
+        public void closeDoorAt(int index)
+        {
+            _elevators[index].gateControllingButtonClose();
         }
     }
 }

@@ -184,5 +184,20 @@ namespace Eliminator
         {
             _direction = dir;
         }
+
+        public void gateControllingButtonOpen()
+        {
+            _gateControllingPanel = true;
+        }
+
+        public void gateControllingButtonClose()
+        {
+            _gateControllingPanel = false;
+        }
+
+        public bool getGateControllingButtonStatus()
+        {
+            return _gateControllingPanel;
+        }
     }
 }
