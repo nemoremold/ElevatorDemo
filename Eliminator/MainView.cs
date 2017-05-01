@@ -33,6 +33,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 0)
                     {
                         pictureBox1.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox1.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -41,6 +45,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 1)
                     {
                         pictureBox2.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox2.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -49,6 +57,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 2)
                     {
                         pictureBox3.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox3.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -57,6 +69,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 3)
                     {
                         pictureBox4.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox4.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -65,6 +81,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 4)
                     {
                         pictureBox5.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox5.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -73,6 +93,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 5)
                     {
                         pictureBox6.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox6.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -81,6 +105,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 6)
                     {
                         pictureBox7.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox7.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -89,6 +117,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 7)
                     {
                         pictureBox8.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox8.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -97,6 +129,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 8)
                     {
                         pictureBox9.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox9.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -105,6 +141,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 9)
                     {
                         pictureBox10.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox10.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -113,6 +153,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 10)
                     {
                         pictureBox11.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox11.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -121,6 +165,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 11)
                     {
                         pictureBox12.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox12.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -129,6 +177,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 12)
                     {
                         pictureBox13.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox13.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -137,6 +189,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 13)
                     {
                         pictureBox14.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox14.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -145,6 +201,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 14)
                     {
                         pictureBox15.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox15.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -153,6 +213,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 15)
                     {
                         pictureBox16.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox16.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -161,6 +225,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 16)
                     {
                         pictureBox17.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox17.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -169,6 +237,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 17)
                     {
                         pictureBox18.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox18.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -177,6 +249,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 18)
                     {
                         pictureBox19.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox19.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -185,6 +261,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(0) == 19)
                     {
                         pictureBox20.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(0))
+                        {
+                            pictureBox20.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -193,6 +273,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 19)
                     {
                         pictureBox21.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox21.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -201,6 +285,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 18)
                     {
                         pictureBox22.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox22.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -209,6 +297,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 17)
                     {
                         pictureBox23.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox23.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -217,6 +309,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 16)
                     {
                         pictureBox24.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox24.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -225,6 +321,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 15)
                     {
                         pictureBox25.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox25.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -233,6 +333,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 14)
                     {
                         pictureBox26.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox26.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -241,6 +345,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 13)
                     {
                         pictureBox27.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox27.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -249,6 +357,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 12)
                     {
                         pictureBox28.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox28.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -257,6 +369,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 11)
                     {
                         pictureBox29.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox29.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -265,6 +381,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 10)
                     {
                         pictureBox30.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox30.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -273,6 +393,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 9)
                     {
                         pictureBox31.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox31.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -281,6 +405,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 8)
                     {
                         pictureBox32.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox32.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -289,6 +417,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 7)
                     {
                         pictureBox33.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox33.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -297,6 +429,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 6)
                     {
                         pictureBox34.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox34.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -305,6 +441,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 5)
                     {
                         pictureBox35.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox35.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -313,6 +453,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 4)
                     {
                         pictureBox36.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox36.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -321,6 +465,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 3)
                     {
                         pictureBox37.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox37.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -329,6 +477,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 2)
                     {
                         pictureBox38.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox38.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -337,6 +489,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 1)
                     {
                         pictureBox39.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox39.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -345,6 +501,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(1) == 0)
                     {
                         pictureBox40.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(1))
+                        {
+                            pictureBox40.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -353,6 +513,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 19)
                     {
                         pictureBox41.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox41.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -361,6 +525,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 18)
                     {
                         pictureBox42.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox42.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -369,6 +537,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 17)
                     {
                         pictureBox43.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox43.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -377,6 +549,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 16)
                     {
                         pictureBox44.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox44.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -385,6 +561,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 15)
                     {
                         pictureBox45.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox45.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -393,6 +573,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 14)
                     {
                         pictureBox46.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox46.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -401,6 +585,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 13)
                     {
                         pictureBox47.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox47.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -409,6 +597,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 12)
                     {
                         pictureBox48.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox48.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -417,6 +609,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 11)
                     {
                         pictureBox49.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox49.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -425,6 +621,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 10)
                     {
                         pictureBox50.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox50.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -433,6 +633,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 9)
                     {
                         pictureBox51.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox51.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -441,6 +645,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 8)
                     {
                         pictureBox52.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox52.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -449,6 +657,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 7)
                     {
                         pictureBox53.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox53.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -457,6 +669,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 6)
                     {
                         pictureBox54.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox54.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -465,6 +681,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 5)
                     {
                         pictureBox55.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox55.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -473,6 +693,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 4)
                     {
                         pictureBox56.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox56.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -481,6 +705,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 3)
                     {
                         pictureBox57.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox57.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -489,6 +717,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 2)
                     {
                         pictureBox58.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox58.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -497,6 +729,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 1)
                     {
                         pictureBox59.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox59.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -505,6 +741,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(2) == 0)
                     {
                         pictureBox60.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(2))
+                        {
+                            pictureBox60.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -513,6 +753,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 19)
                     {
                         pictureBox61.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox61.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -521,6 +765,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 18)
                     {
                         pictureBox62.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox62.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -529,6 +777,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 17)
                     {
                         pictureBox63.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox63.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -537,6 +789,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 16)
                     {
                         pictureBox64.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox64.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -545,6 +801,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 15)
                     {
                         pictureBox65.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox65.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -553,6 +813,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 14)
                     {
                         pictureBox66.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox66.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -561,6 +825,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 13)
                     {
                         pictureBox67.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox67.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -569,6 +837,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 12)
                     {
                         pictureBox68.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox68.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -577,6 +849,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 11)
                     {
                         pictureBox69.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox69.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -585,6 +861,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 10)
                     {
                         pictureBox70.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox70.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -593,6 +873,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 9)
                     {
                         pictureBox71.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox71.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -601,6 +885,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 8)
                     {
                         pictureBox72.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox72.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -609,6 +897,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 7)
                     {
                         pictureBox73.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox73.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -617,6 +909,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 6)
                     {
                         pictureBox74.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox74.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -625,6 +921,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 5)
                     {
                         pictureBox75.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox75.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -633,6 +933,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 4)
                     {
                         pictureBox76.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox76.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -641,6 +945,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 3)
                     {
                         pictureBox77.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox77.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -649,6 +957,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 2)
                     {
                         pictureBox78.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox78.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -657,6 +969,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 1)
                     {
                         pictureBox79.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox79.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -665,6 +981,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(3) == 0)
                     {
                         pictureBox80.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(3))
+                        {
+                            pictureBox80.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -673,6 +993,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 19)
                     {
                         pictureBox81.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox81.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -681,6 +1005,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 18)
                     {
                         pictureBox82.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox82.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -689,6 +1017,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 17)
                     {
                         pictureBox83.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox83.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -697,6 +1029,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 16)
                     {
                         pictureBox84.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox84.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -705,6 +1041,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 15)
                     {
                         pictureBox85.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox85.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -713,6 +1053,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 14)
                     {
                         pictureBox86.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox86.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -721,6 +1065,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 13)
                     {
                         pictureBox87.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox87.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -729,6 +1077,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 12)
                     {
                         pictureBox88.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox88.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -737,6 +1089,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 11)
                     {
                         pictureBox89.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox89.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -745,6 +1101,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 10)
                     {
                         pictureBox90.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox90.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -753,6 +1113,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 9)
                     {
                         pictureBox91.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox91.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -761,6 +1125,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 8)
                     {
                         pictureBox92.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox92.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -769,6 +1137,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 7)
                     {
                         pictureBox93.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox93.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -777,6 +1149,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 6)
                     {
                         pictureBox94.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox94.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -785,6 +1161,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 5)
                     {
                         pictureBox95.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox95.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -793,6 +1173,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 4)
                     {
                         pictureBox96.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox96.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -801,6 +1185,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 3)
                     {
                         pictureBox97.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox97.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -809,6 +1197,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 2)
                     {
                         pictureBox98.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox98.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -817,6 +1209,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 1)
                     {
                         pictureBox99.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox99.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -825,6 +1221,10 @@ namespace Eliminator
                     if (controller.getCurrentFloorElevatorAt(4) == 0)
                     {
                         pictureBox100.BackColor = System.Drawing.Color.Blue;
+                        if (controller.getDoorStatus(4))
+                        {
+                            pictureBox100.BackColor = System.Drawing.Color.Green;
+                        }
                     }
                     else
                     {
@@ -1946,11 +2346,46 @@ namespace Eliminator
                         button96.BackColor = System.Drawing.Color.Gray;
                     }
 
-                    label1.Text = "Elevator1: FLOOR " + controller.getCurrentFloorElevatorAt(0).ToString();
-                    label2.Text = "Elevator1: FLOOR " + controller.getCurrentFloorElevatorAt(1).ToString();
-                    label3.Text = "Elevator1: FLOOR " + controller.getCurrentFloorElevatorAt(2).ToString();
-                    label4.Text = "Elevator1: FLOOR " + controller.getCurrentFloorElevatorAt(3).ToString();
-                    label5.Text = "Elevator1: FLOOR " + controller.getCurrentFloorElevatorAt(4).ToString();
+                    if (controller.getDirection(0) == Direction.UP)
+                    {
+                        label1.Text = "Elevator1: FLOOR " + (controller.getCurrentFloorElevatorAt(0) + 1).ToString() + " UP";
+                    }
+                    else if (controller.getDirection(0) == Direction.DOWN)
+                    {
+                        label1.Text = "Elevator1: FLOOR " + (controller.getCurrentFloorElevatorAt(0) + 1).ToString() + " DOWN";
+                    }
+                    if (controller.getDirection(1) == Direction.UP)
+                    {
+                        label2.Text = "Elevator2: FLOOR " + (controller.getCurrentFloorElevatorAt(1) + 1).ToString() + " UP";
+                    }
+                    else if (controller.getDirection(1) == Direction.DOWN)
+                    {
+                        label2.Text = "Elevator2: FLOOR " + (controller.getCurrentFloorElevatorAt(1) + 1).ToString() + " DOWN";
+                    }
+                    if (controller.getDirection(2) == Direction.UP)
+                    {
+                        label3.Text = "Elevator3: FLOOR " + (controller.getCurrentFloorElevatorAt(2) + 1).ToString() + " UP";
+                    }
+                    else if (controller.getDirection(2) == Direction.DOWN)
+                    {
+                        label3.Text = "Elevator3: FLOOR " + (controller.getCurrentFloorElevatorAt(2) + 1).ToString() + " DOWN";
+                    }
+                    if (controller.getDirection(3) == Direction.UP)
+                    {
+                        label4.Text = "Elevator4: FLOOR " + (controller.getCurrentFloorElevatorAt(3) + 1).ToString() + " UP";
+                    }
+                    else if (controller.getDirection(3) == Direction.DOWN)
+                    {
+                        label4.Text = "Elevator4: FLOOR " + (controller.getCurrentFloorElevatorAt(3) + 1).ToString() + " DOWN";
+                    }
+                    if (controller.getDirection(4) == Direction.UP)
+                    {
+                        label5.Text = "Elevator5: FLOOR " + (controller.getCurrentFloorElevatorAt(4) + 1).ToString() + " UP";
+                    }
+                    else if (controller.getDirection(4) == Direction.DOWN)
+                    {
+                        label5.Text = "Elevator5: FLOOR " + (controller.getCurrentFloorElevatorAt(4) + 1).ToString() + " DOWN";
+                    }
 
                     Thread.Sleep(100);
                 }
