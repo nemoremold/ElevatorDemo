@@ -112,18 +112,22 @@ namespace Eliminator
                 }
             } while (!isArrived(index));
             
-            for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
+            /*for (openDoor(index); _elevators[index].getDoorStatus(); openDoor(index))
             {
                 if (_elevators[index].getDoorStatus())
                 {
                     Thread.Sleep(3000);
                 }
                 //MessageBox.Show(index.ToString());
-                while (_elevators[index].getGateControllingButtonStatus())
+            }*/
+            while (_elevators[index].getGateControllingButtonStatus())
+            {
+                if (!_elevators[index].getDoorStatus())
                 {
+                    _elevators[index].openDoor();
                 }
-                _elevators[index].closeDoor();
             }
+            _elevators[index].closeDoor();
 
             _elevators[index]._shiftingCheck = false;
             _elevators[index].stop();
