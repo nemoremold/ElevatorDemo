@@ -9,16 +9,25 @@
 ### Product Development History
 #### 2017/4/30:
 v0.1: basic C# testing demo launched by Yaxuan LANYU;
+
 v0.2: project created by Yaxuan LANYU;
+
 v0.3: basic class of elevator dispatch designed by Yaxuan LANYU after looking up meterials about multi-threading and elevator dispatch;
+
 v0.4: basic classes implemented by Yaxuan LANYU;
+
 
 #### 2017/5/1:
 v0.5: basic UI designed by Yaxuan LANYU;
+
 v0.6: UIControl functionality implemented by Yaxuan LANYU;
+
 v0.7: logic relationship between UI contents and classes implemented by Yaxuan LANYU;
+
 v0.8 patches: several logic bugs fixed by Yaxuan LANYU;
+
 v0.9 patches: several optimization functionalities added by Yaxuan LANYU;
+
 
 #### 2017/5/2:
 Alpha: project’s final development procedure finished, adding icons and form name, etc. By Yaxuan LANYU;
@@ -66,15 +75,23 @@ Finish a demo imitating the real elevator’s working procedure. Use whatever me
 
 #### 2.Logic Solution:
 a)First, by analysing the problem, we split the whole solution to three stages.
+
 b)At stage one, we make clear the relations between elevators, elevators’ interior control panel, control panels on each floor exterior to the elevetors and the elements to display their status and control. We find that the elevators and whatsever interior to them can be intergrated into the same kind of entity. While the control panels on each floor exterior the the elevators are intergrated into another kind of entity. And that we need a third kind of entity to handle them and everything related to them. Apart from them we also need a independent graphic handler. Upon defining such handler, a relation between so said handler and the total control entity needs to be established.
+
 c)At stage two, we implement the entities. With Elevator controlling the elevators and all the elements included in them while FloorController controlling the elements excluded from them. Then we create the graphic view of the application, relating them to codes. We create a third class named ElevatorController to intergrate Elevator and FloorController. With it we handle all the requests and status-changings of elements relevant to elevators. Meanwhile, we implement the detailed display of elements in the form by linking every individual element of it to a status of elevators. After all things above done, we implement a method to dynamically optimize the form.
+
 d)At stage three, we finish all other work as icon making, process terminating, etc., making the product more efficient, and also, more user-friendly. Then we write the document about the project and the product.
+
 
 #### 3.Technical Solution:
 As we need to handle all the elevators seperatedly, we need the thought of multi-threading. At a point where a request is made, we search for an unused elevator, creating a thread for it, and dispatching it with work.
+
 For every elevator working in its own thread, it check on the global status of the tasks and optimize its own tasks.
+
 To display the form and information dynamically, we also create another thread to do the UI Control. This UI Control optimize elements in the graphic view with data the ElevatorController object provides.
+
 Because the rendering thread, id est, UIControl thread, is in an infinite loop, we must terminate all the process relevant to the program upon exiting the application.
+
 
 #### 4.Detailed Solution:
 THIS PART OF THE SOLUTION WILL BE PRESENTED IN CODES ATTACHED.
